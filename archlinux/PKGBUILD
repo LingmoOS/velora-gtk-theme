@@ -1,19 +1,19 @@
 # Maintainer: justforlxz <justforlxz@gmail.com>
-pkgname=deepin-gtk-theme-git
+pkgname=velora-gtk-theme-git
 pkgver=2020.06.10.r12.g3cd9a6d
 pkgrel=1
-sourcename=deepin-gtk-theme
+sourcename=velora-gtk-theme
 sourcetars=("$sourcename"_"$pkgver".tar.xz)
 sourcedir="$sourcename"
 pkgdesc="Deepin GTK Theme"
 arch=('any')
-url="https://github.com/linuxdeepin/deepin-gtk-theme"
+url="https://github.com/linuxdeepin/velora-gtk-theme"
 makedepends=('git')
 license=('LGPL3')
 optdepends=('gtk-engine-murrine: for gtk2 themes')
 groups=('deepin-git')
-conflicts=(deepin-gtk-theme)
-provides=(deepin-gtk-theme)
+conflicts=(velora-gtk-theme)
+provides=(velora-gtk-theme)
 source=("${sourcetars[@]}")
 sha512sums=('SKIP')
 

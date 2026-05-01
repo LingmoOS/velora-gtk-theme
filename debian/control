@@ -1,13 +1,14 @@
-Source: deepin-gtk-theme
+Source: velora-gtk-theme
 Section: gnome
 Priority: optional
-Maintainer: Deepin Packages Builder <packages@deepin.com>
-Standards-Version: 3.9.8
+Maintainer: Lingmo OS Team <team@lingmo.org>
+Standards-Version: 4.5.0
 Build-Depends: debhelper (>= 9),
+Homepage: https://github.com/LingmoOS/velora-gtk-theme
 
-Package: deepin-gtk-theme
+Package: velora-gtk-theme
 Architecture: all
 Depends: ${misc:Depends}
 Breaks: libgtk-3-0 ( <= 3.5.0 )
-Description: Deepin Gtk Themes
- This package contains GTK+ themes for Deepin Desktop Environment.
+Description: Lingmo OS Gtk Themes
+ This package contains GTK+ themes for Lingmo OS.
