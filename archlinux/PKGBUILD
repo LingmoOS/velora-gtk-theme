@@ -2,18 +2,18 @@
 pkgname=velora-gtk-theme-git
 pkgver=2020.06.10.r12.g3cd9a6d
 pkgrel=1
-sourcename=velora-gtk-theme
+sourcename=lingmo-gtk-theme
 sourcetars=("$sourcename"_"$pkgver".tar.xz)
 sourcedir="$sourcename"
 pkgdesc="Deepin GTK Theme"
 arch=('any')
-url="https://github.com/linuxdeepin/velora-gtk-theme"
+url="https://github.com/linuxdeepin/lingmo-gtk-theme"
 makedepends=('git')
 license=('LGPL3')
 optdepends=('gtk-engine-murrine: for gtk2 themes')
 groups=('deepin-git')
-conflicts=(velora-gtk-theme)
-provides=(velora-gtk-theme)
+conflicts=(lingmo-gtk-theme)
+provides=(lingmo-gtk-theme)
 source=("${sourcetars[@]}")
 sha512sums=('SKIP')
 

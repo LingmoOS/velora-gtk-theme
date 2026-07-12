@@ -1,12 +1,12 @@
-Source: velora-gtk-theme
+Source: lingmo-gtk-theme
 Section: gnome
 Priority: optional
 Maintainer: Lingmo OS Team <team@lingmo.org>
 Standards-Version: 4.5.0
 Build-Depends: debhelper (>= 9),
-Homepage: https://github.com/LingmoOS/velora-gtk-theme
+Homepage: https://github.com/LingmoOS/lingmo-gtk-theme
 
-Package: velora-gtk-theme
+Package: lingmo-gtk-theme
 Architecture: all
 Depends: ${misc:Depends}
 Breaks: libgtk-3-0 ( <= 3.5.0 )
